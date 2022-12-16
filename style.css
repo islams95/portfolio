@@ -1,0 +1,390 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'Cairo', sans-serif;
+    text-decoration: none;
+    border: none;
+    list-style: none;
+
+
+}
+
+a {
+    color: white;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem 2rem;
+    width: 100%;
+    align-items: center;
+    height: 4rem;
+    flex-wrap: wrap;
+    transition: 1s;
+    position: fixed;
+    background-color: white;
+    z-index: 9999;
+    top: 0%;
+    left: 0%;
+    overflow: hidden;
+
+}
+
+nav p {
+    font-size: 2rem;
+    font-weight: 700;
+    font-family: 'Be Vietnam';
+    ;
+}
+
+nav img {
+    width: 500px;
+}
+
+.email {
+    width: 7rem;
+    height: 2rem;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+
+
+
+
+.nav-toggle {
+    background-color: transparent;
+    font-size: 2rem;
+}
+
+
+
+
+.navv {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    width: 100%;
+    display: none;
+    font-size: 2rem;
+    list-style: circle;
+
+}
+
+/* .navv a:hover {
+    width: 80px;
+    color: black;
+    background-color: white;
+} */
+
+main {
+    padding-top: 10rem;
+}
+
+main h1 {
+    font-size: calc(1rem + 08vw);
+
+}
+
+main h4 {
+    font-size: calc(1rem + 04vw);
+    font-weight: 300;
+}
+
+.btns {
+    width: 15rem;
+    margin-top: 1rem;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+.btn {
+    width: 100px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    font-size: 1rem;
+    transition: .2s;
+}
+
+.btn:hover {
+    border-radius: 15px;
+    background-color: darkblue;
+}
+
+.skill {
+    margin-top: 8rem;
+}
+
+.skill p {
+    font-size: 3rem;
+    text-align: center;
+    font-weight: 900;
+    padding-bottom: 3rem;
+}
+
+
+
+.one {
+
+    font-size: 2rem;
+
+    font-weight: 600;
+    color: white;
+
+    cursor: pointer;
+    transition: 3s;
+
+
+
+}
+
+.two {
+    font-size: 2rem;
+    font-weight: 600;
+    color: white;
+    cursor: default;
+
+}
+
+
+#sklz {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(0, 0, 0);
+    /* background-image: linear-gradient(270deg, #00E0FF 0.13%, #00A3FF 100.59%); */
+    align-items: center;
+    flex-grow: 1;
+    gap: 2rem;
+    padding: 2rem;
+
+
+}
+
+.sklz2 {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(0, 0, 0);
+    align-items: center;
+    flex-grow: 1;
+    gap: 2rem;
+    padding: 2rem;
+    margin-bottom: 5rem;
+
+}
+
+#about>p {
+    font-size: 3rem;
+    text-align: center;
+    font-weight: 900;
+    padding-bottom: 3rem;
+}
+
+.about {
+    position: relative;
+    background-image: linear-gradient(270deg, #00E0FF 0.13%, #00A3FF 100.59%);
+    color: white;
+    padding: 3rem;
+    padding-bottom: 9rem;
+}
+
+.about h3 {
+    font-size: 1.7em;
+    font-family: 'Be Vietnam',
+        sans-serif !important;
+    ;
+}
+
+.me {
+    font-size: 1.5rem;
+    font-family: 'Be Vietnam',
+        sans-serif !important;
+    ;
+}
+
+.about span {
+    font-weight: 700;
+}
+
+.btn2 {
+    position: absolute;
+    width: 5rem;
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-size: 1rem;
+    transition: .2s;
+    top: 15%;
+    font-size: .8rem;
+    right: 10%;
+}
+
+.btn2:hover {
+    border-radius: 15px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    transition: .5s;
+
+}
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    padding: 3rem;
+    margin-top: 3rem;
+
+}
+
+.project {
+    width: 300px;
+    background-color: rgb(0, 0, 0);
+    height: 400px;
+    margin-bottom: 1rem;
+    position: relative;
+
+}
+
+#projects>p {
+    font-size: 3rem;
+    text-align: center;
+    font-weight: 900;
+    padding-bottom: 3rem;
+}
+
+.layer {
+    position: absolute;
+    display: none;
+    width: 300px;
+    height: 400px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.755);
+    padding-top: 50%;
+    color: white;
+}
+
+.project:hover .layer {
+    display: block;
+}
+
+#Contact {
+    background-color: black;
+    padding-bottom: 5rem;
+    padding: 2rem;
+}
+
+#Contact h2 {
+    color: white;
+    font-size: 2.3rem;
+    text-align: center;
+}
+
+.contact {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+    ;
+}
+
+.contact>input {
+    width: 35rem;
+    border: solid rgb(0, 0, 0) 1px;
+    height: 300px;
+    padding: 20px;
+    color: white;
+    background-color: rgb(65, 65, 65);
+    text-align: center;
+}
+
+.inputs {
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-bottom: 1rem;
+    overflow: hidden;
+}
+
+.inputs input {
+    width: 35rem;
+    border: solid black 1px;
+    height: 70px;
+    padding: 20px;
+    color: white;
+    background-color: rgb(65, 65, 65);
+}
+
+.btn3 {
+    width: 200px;
+    height: 50px;
+    background-color: rgb(65, 65, 65);
+    color: white;
+    font-size: 1rem;
+    transition: .2s;
+    margin-top: 3rem;
+}
+
+.btn3:hover {
+    border-radius: 15px;
+    background-color: rgb(252, 252, 252);
+    color: black;
+}
+
+@media(max-width:500px) {
+    .btns {
+
+        width: 25rem;
+        margin-top: 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0ch;
+    }
+
+    .btn {
+        margin-top: 2rem;
+    }
+
+    .sklz2 {
+        width: 100%;
+    }
+
+    .btn2 {
+        display: none;
+    }
+
+    .inputs input {
+        width: 300px;
+        border: solid black 1px;
+        height: 70px;
+        padding: 20px;
+        color: white;
+        background-color: rgb(65, 65, 65);
+
+
+    }
+
+    nav {
+        padding: 0%;
+        width: 100%;
+    }
+}
+
+.scroll-down nav {
+    transform: translate3d(0, -100%, 0);
+}
+
+.scroll-up nav {
+    filter: drop-shadow(0 -10px 20px rgb(170, 170, 170));
+}
